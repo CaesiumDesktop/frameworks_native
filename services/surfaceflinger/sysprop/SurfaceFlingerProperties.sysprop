@@ -556,3 +556,11 @@ prop {
     access: Readonly
     prop_name: "ro.surface_flinger.resync_on_choreographer_timeout"
 }
+
+prop {
+    api_name: "native_window_buffers_format"
+    type: Integer
+    scope: Public
+    access: Readonly
+    prop_name: "ro.surface_flinger.native_window_buffers_format"
+}

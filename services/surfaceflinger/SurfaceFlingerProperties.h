@@ -111,6 +111,8 @@ int32_t resync_on_tx_timeout(int64_t defaultValue);
 
 int32_t resync_on_choreographer_timeout(int64_t defaultValue);
 
+int32_t native_window_buffers_format(int32_t defaultValue);
+
 } // namespace sysprop
 } // namespace android
 #endif // SURFACEFLINGERPROPERTIES_H_
